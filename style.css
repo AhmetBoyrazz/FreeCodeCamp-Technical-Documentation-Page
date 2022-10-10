@@ -40,3 +40,15 @@ body {
     display: inline-block;
     color: black;
 }
+
+nav header {
+    border-bottom: 2px solid black;
+}
+
+header {
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 20px;
+}
