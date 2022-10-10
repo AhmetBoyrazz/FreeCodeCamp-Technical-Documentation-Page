@@ -75,3 +75,37 @@ code {
     margin-left: 255px;
     padding: 8px;
 }
+
+
+img {
+    height: 250px;
+    width: 450px;
+    min-height: 150px;
+    min-width: 350px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+    img {
+        height: 50px;
+        width: 250px;
+        min-height: 40px;
+        min-width: 240px;
+    }
+}
+
+.skate-shapes {
+    height: 200px;
+    width: 450px;
+    margin-bottom: 8px
+}
+
+.trucks-size-chart {
+    height: 320px;
+    width: 450px;
+    margin-bottom: 8px
+}
+
+a {
+    text-decoration: none;
+}
