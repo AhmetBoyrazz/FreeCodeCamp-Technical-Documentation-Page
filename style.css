@@ -52,3 +52,26 @@ header {
 h1 {
     font-size: 20px;
 }
+
+.subtitle {
+    font-size: 27px;
+}
+
+code {
+    font-size: 14px;
+}
+
+.main-section {
+    border-bottom: 2px solid black;
+    margin-top: 8px;
+}
+
+.main-section:first-of-type {
+    margin-top: 0;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 255px;
+    padding: 8px;
+}
