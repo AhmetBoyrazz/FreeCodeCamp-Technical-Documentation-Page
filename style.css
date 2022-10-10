@@ -19,3 +19,24 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+#navbar ul {
+    height: 80%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    color: black;
+}
